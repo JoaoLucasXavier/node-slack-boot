@@ -1,0 +1,29 @@
+{
+  "name": "slack-boot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoLucasXavier/node-slack-boot.git"
+  },
+  "keywords": [
+    "slack",
+    "boot"
+  ],
+  "author": "João Lucas Xavier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoLucasXavier/node-slack-boot/issues"
+  },
+  "homepage": "https://github.com/JoaoLucasXavier/node-slack-boot#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.7.1",
+    "dotenv": "^16.0.0"
+  }
+}
